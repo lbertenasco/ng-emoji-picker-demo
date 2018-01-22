@@ -1,5 +1,7 @@
 # NgEmojiPickerDemo
 
+Demo project for: [ng-emoji-picker](https://github.com/lbertenasco/ng-emoji-picker)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
 ## Development server
