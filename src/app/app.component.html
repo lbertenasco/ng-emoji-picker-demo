@@ -9,11 +9,12 @@
   <emoji-input [(model)]="text"
                [inputClass]="'red'"
                [searchClass]="'blue'"
+               [closeAfterSelection]="false"
                style="display: inline-block;"
                (click)="openPopup(false)"
                (setPopupAction)="setPopupAction($event)">
   </emoji-input>
-  <button type="button" name="button"  style="display: inline-block;" (click)="openPopup(true)">
+  <button type="button" name="button"  style="display: inline-block;" (click)="openPopup()">
     Click me :)
   </button>
 </div>
